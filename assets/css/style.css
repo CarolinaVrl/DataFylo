@@ -21,6 +21,9 @@ body{
     align-items: center;
     justify-content: center;
     color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    
    
 }
 main{
@@ -34,7 +37,38 @@ main{
 article{
     background: var(--appDarkBlue);
     max-width: 320px;
+    padding:  30px;
 }
-.brand{}
+.brand{
+   
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 90px 10px 10px;
 
-.space{}
+}
+.brand > img{
+    width: 50%;
+}
+.options{
+    display: flex;
+    gap: 20px;
+}
+.options > div{
+    background: var(--appVeryDarkBlue);
+    padding: 10px ;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+}
+.space{
+    border-radius: 10px;
+    position: relative;
+}
+
+.free-space{
+    position: absolute;
+    bottom: 0;
+    background: #ffffff;
+}
