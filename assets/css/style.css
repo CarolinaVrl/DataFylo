@@ -14,3 +14,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: var(--appVeryDarkBlue);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+article{
+    background: var(--appDarkBlue);
+    max-width: 320px;
+}
+.brand{}
+
+.space{}
