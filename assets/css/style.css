@@ -71,4 +71,5 @@ article{
     position: absolute;
     bottom: 0;
     background: #ffffff;
+    color: var(--appVeryDarkBlue);
 }
