@@ -8,3 +8,9 @@
  --appDarkBlue: hsl(228, 56%, 26%);
  --appVeryDarkBlue: hsl(229, 57%, 11%)
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
