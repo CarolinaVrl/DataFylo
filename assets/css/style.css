@@ -74,6 +74,9 @@ article {
     position: relative;
     font-size: 8px;
     color: var(--appPableBlue);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .space-text{
     font-size: 10px;
@@ -83,6 +86,22 @@ article {
 
 .space-text span{
     font-weight: 700;
+}
+.space-data{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.line{
+    background: var(--appVeryDarkBlue);
+    width: 100%;
+    height: 10px;
+    border-radius: 50px;
+}
+.line-data{
+    display: flex;
+    justify-content: space-between;
+    
 }
 .free-space {
     position: absolute;
