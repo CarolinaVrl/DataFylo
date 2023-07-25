@@ -16,7 +16,9 @@
 }
 
 body {
-    background: var(--appVeryDarkBlue);
+    background:url("/assets/images/bg-mobile.png") no-repeat;
+    background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,6 +36,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 20px;
+  
 }
 
 article {
@@ -159,3 +162,4 @@ article {
     text-transform: uppercase;
 
 }
+
